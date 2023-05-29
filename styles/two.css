@@ -1,0 +1,27 @@
+.container{
+    width: 330px;
+    height: 100vh;
+    margin: 2rem;
+}
+.nav a{
+    color: #9d6e32;
+}
+.postpage{
+    display:flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: green;  
+}
+.postpage a {
+   color: #333;
+   font-weight:900px;
+   font-size: .8rem;
+   color:rgb(167, 165, 165);
+}
+.postpage a:hover{
+    color: #181717;
+}
+.author u{
+  font-weight:300;
+  color: #333;
+}

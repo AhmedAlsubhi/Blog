@@ -1,0 +1,30 @@
+.cardsection{
+    margin:0;
+    padding:0;
+}
+.fcard{
+    color: green;
+    margin-bottom: 20px;
+}
+.scard{
+    color: rgb(8, 70, 8);
+    margin-bottom: 20px;
+
+}
+.thcard{
+    color: rgb(107, 162, 107);
+    margin-bottom: 20px;
+}
+.social a{
+    width: max-content;
+    color: #333;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+@media (300px <= width){
+    .container{
+        width:550px;
+        margin: auto;
+    }
+}

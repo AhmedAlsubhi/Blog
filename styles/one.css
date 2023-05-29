@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color:#634a1c;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    display: grid;
+    padding:2rem;
+}
+img{
+    width:80%;
+   
+}
+
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    color: rgb(234, 194, 142);
+}
