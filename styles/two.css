@@ -1,27 +1,85 @@
-.container{
-    width: 330px;
+.container {
+    width: 800px;
     height: 100vh;
-    margin: 2rem;
+
 }
-.nav a{
-    color: #9d6e32;
+
+.nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+
+
 }
-.postpage{
-    display:flex;
-    justify-content: space-around;
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    color: #eb732e;
+    position: absolute;
+    top: 60px;
+    left: 0px;
     font-size: 1.5rem;
-    color: green;  
+    font-weight: 900;
+
+
 }
+
+.cardsection {
+    display: grid;
+    grid-template-columns: repeat(3, 267px);
+    grid-auto-rows: minmax(150px, auto);
+    justify-content: space-between;
+    padding-bottom: 10rem;
+
+}
+
+.postpage {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #eb732e;
+    padding-bottom: 10rem;
+    margin: auto;
+}
+
 .postpage a {
-   color: #333;
-   font-weight:900px;
-   font-size: .8rem;
-   color:rgb(167, 165, 165);
+    color: #333;
+    font-weight: 900px;
+    font-size: .8rem;
+    color: #4CAF50;
 }
-.postpage a:hover{
+
+.postpage a:hover {
     color: #181717;
 }
-.author u{
-  font-weight:300;
-  color: #333;
+
+.author {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 267px);
+    grid-auto-rows: minmax(100px, auto);
+    margin: auto;
+    margin-bottom: 150px;
+
+}
+
+.author u {
+    font-weight: 300;
+    color: #daac82;
+}
+
+.btn {
+    background-color: #4CAF50;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }

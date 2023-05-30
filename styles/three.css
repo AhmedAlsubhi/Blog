@@ -1,30 +1,26 @@
-.cardsection{
-    margin:0;
-    padding:0;
+.fcard {
+  color: green;
 }
-.fcard{
-    color: green;
-    margin-bottom: 20px;
+.card {
+  color: #6c6f70;
+  text-decoration: none;
 }
-.scard{
-    color: rgb(8, 70, 8);
-    margin-bottom: 20px;
-
+.scard {
+  color: rgb(8, 70, 8);
 }
-.thcard{
-    color: rgb(107, 162, 107);
-    margin-bottom: 20px;
+.thcard {
+  color: rgb(107, 162, 107);
 }
-.social a{
-    width: max-content;
-    color: #333;
-    font-size: 14px;
-    text-decoration-line: underline;
+.social a {
+  width: max-content;
+  color: #333;
+  font-size: 14px;
+  text-decoration-line: underline;
 }
 
-@media (300px <= width){
-    .container{
-        width:550px;
-        margin: auto;
-    }
+@media (300px <= width) {
+  .container {
+    width: 850px;
+    margin: auto;
+  }
 }
